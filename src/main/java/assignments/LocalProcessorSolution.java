@@ -2,7 +2,6 @@ package assignments;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
@@ -16,7 +15,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class LocalProcessor {
+public class LocalProcessorSolution {
     private String processorName;
     private Long period = 10000000000000L;
     protected StringBuilder processorVersion;
